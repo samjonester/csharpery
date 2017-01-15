@@ -1,11 +1,12 @@
 ﻿using System;
-using Xunit;
+using NUnit.Framework;
 
 namespace Tests
 {
+    [TestFixture]
     public class Tests
     {
-        [Fact]
+        [Test]
         public void Test1() 
         {
             Assert.True(true);
